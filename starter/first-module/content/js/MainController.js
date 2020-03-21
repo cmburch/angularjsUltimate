@@ -1,5 +1,5 @@
-function MainController() {
-    
+function MainController($scope) {
+   $scope.name = 'Hello World' 
 }
 
 angular
