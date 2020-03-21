@@ -1,6 +1,8 @@
-function MainController($scope) {
-   $scope.name = 'Hello World' 
+function MainController() {
+   this.name = 'Hello World' 
 }
+
+// MainController.$inject = ['$scope'];
 
 angular
     .module('app')
